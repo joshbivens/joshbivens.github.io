@@ -1,0 +1,29 @@
+.splash {
+  color: $white;
+  font-family: $base-font;
+  height: 100vh;
+  margin-top: 7rem;
+}
+
+.splash__headline,
+.splash__copy {
+  margin-left: 10%;
+}
+
+.splash__headline {
+  font-weight: $font-weight-heavy;
+  font-size: 6rem;
+  letter-spacing: -2px;
+}
+
+.splash__copy {
+  font-weight: $font-weight-light;
+  width: 80%;
+  font-size: 1.4rem;
+  line-height: 1.3;
+}
+
+hr {
+  width: 80%;
+  margin: 20px auto;
+}

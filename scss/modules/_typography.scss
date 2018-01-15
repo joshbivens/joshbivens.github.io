@@ -1,11 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,600,700');
 
 $base-font: 'Roboto', 'Arial', sans-serif;
+$comp-font: 'Arimo', 'Arial', sans-serif;
 
 // Weights
 $font-weight-heavy: 700;
+$font-weight-medium-heavy: 600;
 $font-weight-medium: 500;
 $font-weight-regular: 400;
+$font-weight-light: 300;
 
 // Sizes
 $font-size-sm: 1rem;
