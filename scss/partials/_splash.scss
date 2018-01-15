@@ -1,6 +1,6 @@
 .splash {
   color: $white;
-  font-family: $base-font;
+  font-family: $comp-font;
   height: 100vh;
   margin-top: 7rem;
 }
@@ -13,7 +13,7 @@
 .splash__headline {
   font-weight: $font-weight-heavy;
   font-size: 6rem;
-  letter-spacing: -2px;
+  letter-spacing: -5px;
 }
 
 .splash__copy {
@@ -21,6 +21,12 @@
   width: 80%;
   font-size: 1.4rem;
   line-height: 1.3;
+}
+
+.arrow {
+  text-align: center;
+  margin-top: 100px;
+  font-size: $font-size-lg;
 }
 
 hr {
