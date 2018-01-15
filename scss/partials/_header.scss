@@ -1,1 +1,35 @@
-@import 'partials/base';
+header {
+  display: inline-block;
+  width: 100%;
+  font-weight: $font-weight-medium;
+  font-size: $font-size-lg;
+}
+
+.Header__logo {
+  display: inline-block;
+  margin: 3rem 0 0 4.5rem;
+  letter-spacing: -1px;
+}
+
+.Header__social-icons {
+  float: right;
+  ul {
+    margin: 3rem 4.5rem 0 0;
+    li {
+      display: inline;
+      margin-right: 2rem;
+      &:nth-child(3) {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+header a {
+  text-decoration: none;
+  color: $black;
+  transition: all 100ms ease;
+  &:hover {
+    color: $gray-dk;
+  }
+}
