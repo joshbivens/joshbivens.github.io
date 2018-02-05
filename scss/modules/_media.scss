@@ -2,14 +2,8 @@ html {
   font-size: 16px;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
   html {
-    font-size: calc(16px + 6 * ((100vw - 600px) / 680));
-  }
-}
-
-@media screen and (min-width: 1000px) {
-  html {
-    font-size: 22px;
+    font-size: 14px;
   }
 }

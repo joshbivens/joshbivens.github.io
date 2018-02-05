@@ -16,13 +16,14 @@ header {
 
 .Header__social-icons {
   float: right;
+  margin: 3rem 10% 0 0;
   ul {
-    margin: 3rem 10% 0 0;
+    
     li {
       display: inline;
       margin-right: 2rem;
       &:nth-child(3) {
-        margin-right: 3rem;
+        margin-right: 0;
       }
     }
   }
@@ -31,8 +32,18 @@ header {
 header a {
   text-decoration: none;
   color: $white;
-  transition: all 100ms ease;
+  transition: all 200ms ease;
   &:hover {
-    color: $gray-dk;
+    color: $gray;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .Header__social-icons li:nth-child(n+2) {
+    display: none;
+  }
+
+  .Header__social-icons li:first-child {
+    margin: 0;
   }
 }
