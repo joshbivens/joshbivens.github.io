@@ -1,23 +1,27 @@
-// .work__example {
-//   display: flex;
-//   flex-wrap: wrap;
-//   margin: 0 auto;
-// }
+.work__example {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
 
-// .screenshot {
-//   margin: 100px 15px 50px 0;
-// }
+.screenshot {
+  margin: 7rem 20px 0 auto;
+}
 
-// .description {
-//   width: 48%;
-//   margin: 100px 50px 0 15px;
-//   h2 {
-//     font-size: 2em;
-//   }
-// }
+.description {
+  width: 48%;
+  margin: 7rem auto 0 20px;
+  line-height: 1.4;
+}
 
-// @media screen and (max-width: 600px) {
-//   .description {
-//     width: 100%;
-//   }
-// }
+
+@media screen and (max-width: 600px) {
+    .screenshot {
+      margin: 5rem auto 0;
+    }
+
+    .description {
+      width: 80%;
+      margin: 2rem auto 0;
+    }
+  }
