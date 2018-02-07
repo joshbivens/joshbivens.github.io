@@ -16,24 +16,20 @@
   line-height: 1.4;
 }
 
-@media screen and (max-width: 855px) {
+@media screen and (max-width: 875px) {
   .screenshot {
-    margin: 5rem auto 0;
+    margin: 5.5rem auto 20px;
+    width: 300px;
   }
 
   .description {
-    margin: 30px auto 0;
+    margin: 5rem auto 0;
+    width: 300px;
   }
 }
 
 @media screen and (max-width: 600px) {
-    .screenshot {
-      margin: 5rem auto 20px;
-      width: 300px;
-    }
-
     .description {
-      width: 300px;
       margin: 0 auto;
     }
   }
