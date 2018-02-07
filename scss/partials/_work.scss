@@ -6,6 +6,8 @@
 
 .screenshot {
   margin: 7rem 20px 0 auto;
+  background: #000;
+  width: 400px;
 }
 
 .description {
@@ -14,10 +16,21 @@
   line-height: 1.4;
 }
 
+@media screen and (max-width: 875px) {
+  .screenshot {
+    margin: 5rem auto 0;
+  }
+
+  .description {
+    width: 80%;
+    margin: 2rem auto 0;
+  }
+}
 
 @media screen and (max-width: 600px) {
     .screenshot {
       margin: 5rem auto 0;
+      width: 300px;
     }
 
     .description {
