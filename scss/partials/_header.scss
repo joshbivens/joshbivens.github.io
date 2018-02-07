@@ -15,10 +15,11 @@ header {
 }
 
 .Header__social-icons {
+  position: relative;
   float: right;
   margin: 3rem 10% 0 0;
+  z-index: 10;
   ul {
-    
     li {
       display: inline;
       margin-right: 2rem;
@@ -39,11 +40,9 @@ header a {
 }
 
 @media screen and (max-width: 600px) {
-  .Header__social-icons li:nth-child(n+2) {
-    display: none;
-  }
-
-  .Header__social-icons li:first-child {
-    margin: 0;
+  .Header__social-icons ul li {
+    text-align: center;
+    display: block;
+    margin: 0 0 20px 0;
   }
 }
