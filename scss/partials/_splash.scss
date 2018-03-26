@@ -1,7 +1,14 @@
+.splash-wrapper {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient($black-trans, $black-trans),
+    url(../img/hugues-de-buyer-mimeure-335733-min.jpg);
+  background-size: cover;
+}
+
 .splash {
   color: $white;
   font-family: $comp-font;
-  //border: 1px solid #32cd32;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -37,7 +44,6 @@
 .arrow {
   position: absolute;
   bottom: 50px;
-  // margin-top: 3rem;
   font-size: $font-size-lg;
   i {
     animation: bounce 1s infinite;

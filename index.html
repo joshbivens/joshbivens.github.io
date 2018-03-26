@@ -11,12 +11,13 @@
 </head>
 
 <body>
+  
+  <!-- START SPLASH WRAPPER -->
+  <div class="splash-wrapper">
 
-  <div class="wrapper">
-
+    <!-- START SPLASH -->
     <div class="splash container">
 
-          <!-- HEADER START -->
       <header>
         <div class="Header__logo">
           Josh Bivens
@@ -41,16 +42,18 @@
           </ul>
         </div>
       </header>
-      <!-- HEADER END -->
-    
-      <!-- START SPLASH -->
+
+      
       <div class="splash">
         <div class="splash__headline">
-          Web <br> Developer
+          Web
+          <br> Developer
         </div>
         <hr>
         <div class="splash__copy">
-          Hi, my name’s Josh. I make stuff, from user interfaces to web apps (check out my <a href="#">about section</a> to learn more). <a href="#">Contact me</a> 
+          Hi, my name’s Josh. I make stuff, from user interfaces to web apps (check out my
+          <a href="#">about section</a> to learn more).
+          <a href="#">Contact me</a>
           to get to work!
         </div>
         <div class="arrow">
@@ -58,37 +61,78 @@
           <i class="fa fa-caret-down"></i>
         </div>
       </div>
-      <!-- END SPLASH -->
       
     </div>
+    <!-- END SPLASH -->
 
   </div>
+  <!-- END SPLASH WRAPPER -->
 
-  <div class="work container">
-    <div class="work__example">
-      <div class="screenshot">
-        <!-- <img src="http://via.placeholder.com/250x250" alt="screenshot"> -->
-      </div>
-      <div class="description">
-        <h2>Title</h2>
-        <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean volutpat arcu id gravida fermentum. Morbi vitae tortor velit. Donec molestie facilisis velit quis malesuada. Morbi at neque porttitor, sagittis magna eget, imperdiet sapien. Aliquam ante velit, posuere at nunc efficitur, iaculis fringilla nibh. Praesent faucibus, diam in egestas consequat, sapien mauris semper dui, sit amet blandit tellus justo elementum sapien. Curabitur tincidunt dapibus dignissim. Praesent vitae nunc non dolor pellentesque condimentum.
-        </p>
-      </div>
-    </div>
+    <!-- START WORK -->
+    <div class="work container"> 
 
-    <div class="work__example">
-      <div class="screenshot">
-        <!-- <img src="http://via.placeholder.com/250x250" alt="screenshot"> -->
+      <div class="work__example">
+        <div class="screenshot">
+        </div>
+        <div class="description">
+          <h2>Better Habit Tracker</h2>
+          <p>
+            This project brings the React framework, Firebase database, and Firebase authorization together in a simple habit tracker.
+            The basic functionality is complete, but this is an ongoing project.
+          </p>
+        </div>
       </div>
-      <div class="description">
-        <h2>Title</h2>
-        <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean volutpat arcu id gravida fermentum. Morbi vitae tortor velit. Donec molestie facilisis velit quis malesuada. Morbi at neque porttitor, sagittis magna eget, imperdiet sapien. Aliquam ante velit, posuere at nunc efficitur, iaculis fringilla nibh. Praesent faucibus, diam in egestas consequat, sapien mauris semper dui, sit amet blandit tellus justo elementum sapien. Curabitur tincidunt dapibus dignissim. Praesent vitae nunc non dolor pellentesque condimentum.
-        </p>
+
+      <div class="work__example">
+        <div class="screenshot"></div>
+        <div class="description">
+          <h2>Bodhilog</h2>
+          <p>
+            This project's inspiration was wanting to keep track of my meditation sessions and use the Vue framework to do it. I wanted
+            to know 2 things: How long each session was, and what days I did them. This meditation timer and log was the result.
+            I plan on expanding this to include graphs and tables with the
+            <a href="https://d3js.org/">d3 library</a>.
+          </p>
+        </div>
       </div>
+
+      <div class="work__example">
+        <div class="screenshot"></div>
+        <div class="description">
+          <h2>Codepen Work</h2>
+          <p>
+            <a href="https://codepen.io/">Codepen</a> is the best way to try out an idea or prove a concept before you move it to a larger project. It's
+            where I started years ago and I continue to use it to this day.
+          </p>
+        </div>
+      </div>
+
     </div>
-  </div>
+    <!-- END WORK -->
+
+    <!-- START FOOTER -->
+    <footer>
+      <p>&copy; 2018 Josh Bivens</p>
+      <div class="Footer__social-icons">
+        <ul>
+          <li>
+            <a href="https://github.com/joshbivens">
+              <i class="fa fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://codepen.io/joshbivens/">
+              <i class="fa fa-codepen"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/joshbivens/">
+              <i class="fa fa-linkedin-square"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
 
   <script src="dist/js/functions.js"></script>
 

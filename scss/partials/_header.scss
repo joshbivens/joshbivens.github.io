@@ -30,12 +30,37 @@ header {
   }
 }
 
-header a {
+.Footer__social-icons {
+  float: right;
+  ul li {
+    display: inline;
+    margin-right: 2rem;
+    &:nth-child(3) {
+      margin-right: 0;
+    }
+  }
+}
+
+header a, footer a {
   text-decoration: none;
   color: $white;
   transition: all 200ms ease;
   &:hover {
     color: $gray;
+  }
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  font-family: $comp-font;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  p {
+    margin-right: 3rem;
   }
 }
 
